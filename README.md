@@ -90,5 +90,5 @@ This project is licensed under the **MIT License** – feel free to use and modi
 
 ## 👨‍💻 Author
 
-**Mahadev Manerikar**  
-🔗 [LinkedIn](http://linkedin.com/in/mahadev-manerikar-7636a3207/) 
+**Kishor Maski**  
+🔗 [LinkedIn](https://www.linkedin.com/in/kishor-maski-3aaaa7207/) 
