@@ -146,8 +146,8 @@ const Skills = () => (
       </h3>
       <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-4">
         <div className="bg-gray-700 rounded-lg p-4 flex flex-col items-center hover:bg-gray-600 transition duration-300">
-          <i className="fab fa-python text-3xl text-blue-400 mb-2"></i>
-          <span>Python</span>
+          <i className="fab fa-node text-3xl text-blue-400 mb-2"></i>
+          <span>Node</span>
         </div>
         <div className="bg-gray-700 rounded-lg p-4 flex flex-col items-center hover:bg-gray-600 transition duration-300">
           <i className="fab fa-js text-3xl text-yellow-400 mb-2"></i>
@@ -176,6 +176,30 @@ const Skills = () => (
         <div className="bg-gray-700 rounded-lg p-4 flex flex-col items-center hover:bg-gray-600 transition duration-300">
           <i className="fab fa-docker text-3xl text-blue-300 mb-2"></i>
           <span>Docker</span>
+        </div>
+        <div className="bg-gray-700 rounded-lg p-4 flex flex-col items-center hover:bg-gray-600 transition duration-300">
+          <i className="fas fa-server text-3xl text-green-500 mb-2"></i>
+          <span>Express</span>
+        </div>
+        <div className="bg-gray-700 rounded-lg p-4 flex flex-col items-center hover:bg-gray-600 transition duration-300">
+          <i className="fab fa-java text-3xl text-orange-500 mb-2"></i>
+          <span>Java</span>
+        </div>
+        <div className="bg-gray-700 rounded-lg p-4 flex flex-col items-center hover:bg-gray-600 transition duration-300">
+          <i className="fas fa-table text-3xl text-cyan-400 mb-2"></i>
+          <span>SQL</span>
+        </div>
+        <div className="bg-gray-700 rounded-lg p-4 flex flex-col items-center hover:bg-gray-600 transition duration-300">
+          <i className="fas fa-leaf text-3xl text-green-600 mb-2"></i>
+          <span>MongoDB</span>
+        </div>
+        <div className="bg-gray-700 rounded-lg p-4 flex flex-col items-center hover:bg-gray-600 transition duration-300">
+          <i className="fas fa-code-branch text-3xl text-red-500 mb-2"></i>
+          <span>Git</span>
+        </div>
+        <div className="bg-gray-700 rounded-lg p-4 flex flex-col items-center hover:bg-gray-600 transition duration-300">
+          <i className="fab fa-github text-3xl text-gray-300 mb-2"></i>
+          <span>Github</span>
         </div>
       </div>
     </div>

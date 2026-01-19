@@ -26,7 +26,7 @@ const ContactInfo = () => (
     </p>
 
     <div className="space-y-6">
-      <InfoItem icon="envelope" color="blue" title="Email" value="mahadevmanerikar@gmail.com" />
+      <InfoItem icon="envelope" color="blue" title="Email" value="kishormaski16@gmail.com" />
       <InfoItem icon="map-marker-alt" color="purple" title="Location" value="Pune, India" />
     </div>
 
@@ -47,7 +47,7 @@ const InfoItem = ({ icon, color, title, value }: { icon: string; color: string; 
 )
 
 const ContactForm = () => {
-  const [state, handleSubmit] = useForm("xnjqvrdg");
+  const [state, handleSubmit] = useForm("xvzzrqkn");
   const [fields, setFields] = useState({
     name: "",
     email: "",

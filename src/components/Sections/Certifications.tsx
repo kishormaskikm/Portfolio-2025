@@ -9,18 +9,18 @@ interface Certification {
 const Certifications = () => {
   const certifications: Certification[] = [
     {
-      icon: "google",
+      icon: "microsoft",
       color: "blue",
-      title: "Google IT Automation with Python",
-      provider: "Coursera",
-      description: "Professional certification covering Python programming, automation, and IT fundamentals with hands-on projects."
+      title: "AZ-204 Developing Solutions for Microsoft Azure",
+      provider: "Microsoft",
+      description: "Professional certification covering Azure application development, cloud services, security, and deployment with hands-on experience."
     },
     {
         icon: "google",
         color: "purple",
-        title: "Google Data Analytics",
-        provider: "Coursera",
-        description: "Comprehensive program covering data cleaning, analysis, visualization, and tools like SQL, R, and Tableau."
+        title: "Java programming",
+        provider: "Udemy",
+        description: "Completed Java Programming certification covering core Java concepts, OOP, collections, exception handling, and multithreading."
     },
   ]
 
@@ -51,7 +51,7 @@ const CertificationCard = ({ icon, color, title, provider, description }: Certif
         <h3 className="text-xl font-semibold mb-2">{title}</h3>
         <p className="text-gray-400 mb-4">{provider}</p>
         <p className="text-gray-300">{description}</p>
-        <a href="#" className={`inline-block mt-4 text-${color}-400 hover:text-${color}-300 transition duration-300`}>
+        <a href="https://www.udemy.com/certificate/UC-427fb800-439b-419d-ba88-e84b12c236ee/" target="_blank" className={`inline-block mt-4 text-${color}-400 hover:text-${color}-300 transition duration-300`}>
           View Certificate <i className="fas fa-arrow-right ml-1"></i>
         </a>
       </div>

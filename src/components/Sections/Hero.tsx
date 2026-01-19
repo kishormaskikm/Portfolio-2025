@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="md:w-1/2 w-full mb-10 md:mb-0 min-w-0 flex flex-col items-center md:items-start">
           <div className="typewriter mb-6 w-full">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center md:text-left text-white">
-              Hi, I'm Mahadev Manerikar
+              Hi, I'm Kishor Maski
             </h1>
           </div>
           <h2
@@ -22,7 +22,7 @@ const Hero = () => {
               background: "rgba(31,41,55,0.7)",
             }}
           >
-            AI Engineer
+            Backend Developer
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-8 text-center md:text-left">
             Building intelligent systems with Gen AI and scalable
@@ -44,25 +44,25 @@ const Hero = () => {
           </div>
           <div className="mt-8 flex flex-wrap justify-center md:justify-start gap-4">
             <SocialLink
-              href="https://github.com/Mahadev555"
+              href="https://github.com/kishormaskikm"
               icon="github"
               hoverColor="hover:bg-gray-700"
               label="GitHub"
             />
             <SocialLink
-              href="http://linkedin.com/in/mahadev-manerikar-7636a3207/"
+              href="https://www.linkedin.com/in/kishor-maski-3aaaa7207/"
               icon="linkedin-in"
               hoverColor="hover:bg-blue-600"
               label="LinkedIn"
             />
             <SocialLink
-              href="https://x.com/atharvx555"
+              href="/"
               icon="twitter"
               hoverColor="hover:bg-blue-400"
               label="Twitter"
             />
             <SocialLink
-              href="mailto:mahadevmanerikar@gmail.com"
+              href="mailto:kishormaski16@gmail.com"
               icon="envelope"
               hoverColor="hover:bg-red-500"
               label="Email"
@@ -74,7 +74,7 @@ const Hero = () => {
             <div className="w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 rounded-full bg-gray-800 bg-opacity-80 border-4 border-blue-400 flex items-center justify-center shadow-xl mx-auto">
               <img
                 src={profileImage}
-                alt="Mahadev Manerikar"
+                alt="Kishor Maski"
                 className="w-44 h-44 sm:w-60 sm:h-60 md:w-72 md:h-72 rounded-full object-cover border-4 border-gray-900"
               />
             </div>

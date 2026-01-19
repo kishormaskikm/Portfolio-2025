@@ -18,7 +18,7 @@ const About = () => {
           <div className="md:w-1/3 mb-10 md:mb-0 flex justify-center">
             <div className="relative">
               <div className="w-64 h-64 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 p-1">
-                <img  src={profileImage} alt="Mahadev Manerikar" className="w-full h-full rounded-full object-cover border-4 border-gray-800" />
+                <img  src={profileImage} alt="Kishor Maski" className="w-full h-full rounded-full object-cover border-4 border-gray-800" />
               </div>
             </div>
           </div>
