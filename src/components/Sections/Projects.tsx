@@ -12,6 +12,26 @@ interface Project {
 const Projects = () => {
   const projects: Project[] = [
     {
+      icon: "comments",
+      iconColor: "green",
+      title: "PDF Chatbot RAG",
+      description:
+        "Built a RAG chatbot using LangChain and OpenAI that answers questions from PDF documents with vector-based semantic search and source citations.",
+      technologies: ["RAG", "LangChain" , "Typescript", "OpenAI", "Qdrant", "vectorStore"],
+      borderColor: "green",
+      githubUrl: "https://github.com/kishormaskikm/Pdf-ChatBot-RAG-Backend"
+    },
+    {
+      icon: "house",
+      iconColor: "yellow",
+      title: "Agents-Hub",
+      description:
+        "Developed an AI-powered boilerplate generator with Python and a custom VS Code extension, enabling automated project scaffolding through LLM-driven tool execution.",
+      technologies: ["Python", "TypeScript", "OpenAI"],
+      borderColor: "yellow",
+      githubUrl: "https://github.com/kishormaskikm/Boilerplate-Generator-Agent"
+    },
+    {
       icon: "robot",
       iconColor: "blue",
       title: "Query-Verse (QnA platform)",
@@ -19,38 +39,19 @@ const Projects = () => {
         "Query Verse is a Senior-Junior Interaction Web Application, developed using the MERN stack. It facilitates knowledge sharing and mentoring within an educational context.",
       technologies: ["Node.js", "React", "MongoDB", "Gemini", "Express.js"],
       borderColor: "blue",
-      githubUrl: "https://github.com/Mahadev555/QueryVerseBackend"
+      githubUrl: "https://github.com/kishormaskikm/QueryVerseBackend"
     },
     {
-      icon: "comments",
-      iconColor: "green",
-      title: "Agentic Rag",
+      icon: "rocket",
+      iconColor: "gray",
+      title: "Upcoming Project",
       description:
-        "A modern web application that combines RAG with agentic capabilities for intelligent document processing and querying.",
-      technologies: ["RAG", "Agno", "Python (FastAPI)", "Google Gemini", "Chatbot"],
-      borderColor: "green",
-      githubUrl: "https://github.com/Mahadev555/AgenticRAG"
-    },
-    {
-      icon: "house",
-      iconColor: "yellow",
-      title: "Agents-Hub",
-      description:
-        "A multi-agent system platform featuring agent management, chat interactions, and a React frontend. Includes FastAPI backend, PostgreSQL integration, and real-time AI agent chat.",
-      technologies: ["FastAPI", "React", "Agno", "Gemini"],
-      borderColor: "yellow",
-      githubUrl: "https://github.com/Mahadev555/Agno-Hub"
-    },
-    {
-      icon: "eye",
-      iconColor: "red",
-      title: "ServiceNow-MCP",
-      description:
-        "ServiceNow-MCP provides Python tools to manage ServiceNow tickets and implements Model Context Protocol (MCP) with stdio and HTTPS support.",
-      technologies: ["Python"],
-      borderColor: "red",
-      githubUrl: "https://github.com/Mahadev555/ServiceNow-MCP"
+        "Currently working on innovative projects that will be added here soon. Stay tuned for updates showcasing new technologies and solutions.",
+      technologies: ["Coming Soon"],
+      borderColor: "gray",
+      githubUrl: "https://github.com/kishormaskikm"
     }
+
   ];
 
   return (
