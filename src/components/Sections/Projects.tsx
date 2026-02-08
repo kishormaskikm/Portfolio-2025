@@ -24,7 +24,7 @@ const Projects = () => {
     {
       icon: "house",
       iconColor: "yellow",
-      title: "Agents-Hub",
+      title: "Boilerplate-Generator-Agent",
       description:
         "Developed an AI-powered boilerplate generator with Python and a custom VS Code extension, enabling automated project scaffolding through LLM-driven tool execution.",
       technologies: ["Python", "TypeScript", "OpenAI"],
